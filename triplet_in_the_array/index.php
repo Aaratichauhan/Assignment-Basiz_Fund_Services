@@ -1,3 +1,5 @@
+<?php
+
 function findTriplet($arr, $val) {
     $n = count($arr);
     sort($arr);
@@ -30,3 +32,5 @@ if ($triplet) {
 } else {
     echo "No triplet found";
 }
+
+?>
